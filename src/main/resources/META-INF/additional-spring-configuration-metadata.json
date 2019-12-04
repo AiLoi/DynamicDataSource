@@ -1,0 +1,33 @@
+{
+  "properties": [
+    {
+      "name": "druid.defaultName",
+      "type": "java.lang.String",
+      "description": "Description for druid.defaultName."
+    },
+    {
+      "name": "druid.datasource.defaultName",
+      "type": "java.lang.String",
+      "description": "Description for druid.datasource.defaultName."
+    },
+    {
+      "name": "druid.datasource.database1.url",
+      "type": "java.lang.String",
+      "description": "Description for druid.datasource.database1.url."
+    },
+    {
+      "name": "druid.datasource.database1.username",
+      "type": "java.lang.String",
+      "description": "Description for druid.datasource.database1.username."
+    },
+    {
+      "name": "druid.datasource.database1.password",
+      "type": "java.lang.String",
+      "description": "Description for druid.datasource.database1.password."
+    },
+    {
+      "name": "druid.datasource.database1.driverClassName",
+      "type": "java.lang.String",
+      "description": "Description for druid.datasource.database1.driverClassName."
+    }
+  ] }

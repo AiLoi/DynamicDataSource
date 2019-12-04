@@ -1,0 +1,28 @@
+
+druid:
+  datasource:
+    defaultName: datasource1
+    datasource1:
+      url: jdbc:mysql://101.37.174.133:1234/datasource1?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+      username: root
+      password: Ws961226
+      driverClassName: com.mysql.cj.jdbc.Driver
+
+    datasource2:
+      url: jdbc:mysql://101.37.174.133:1234/datasource2?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+      username: root
+      password: Ws961226
+      driverClassName: com.mysql.cj.jdbc.Driver
+
+
+logging:
+  level:
+    root: info
+    com:
+      datasource:
+        mapper: debug
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+server:
+  port: 9527
